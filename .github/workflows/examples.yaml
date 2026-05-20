@@ -2,9 +2,9 @@ name: Examples
 
 on:
   pull_request:
-    paths: [examples/**, scripts/**]
+    paths: [examples/**, scripts/examples-*]
   push:
-    paths: [examples/**, scripts/**]
+    paths: [examples/**, scripts/examples-*]
 
 jobs:
   examples:
